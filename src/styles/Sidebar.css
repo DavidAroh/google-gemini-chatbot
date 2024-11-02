@@ -168,7 +168,7 @@
 @media screen and (max-width: 678px) {
     .sidebar {
       position: fixed;
-      left: -280px;
+      left: -320px;
       top: 0;
       width: 240px;
       height: 600vh;

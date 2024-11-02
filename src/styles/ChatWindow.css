@@ -157,26 +157,17 @@
   word-wrap: break-word;
 }
 
-/* Styles for AI responses */
 .message.gemini pre {
     font-size: 14px;
     font-weight: 400;
     color: #333;
     font-family: Arial, sans-serif;
-    white-space: pre-wrap; /* Ensures text wraps correctly */
-    line-height: 1.5;
+    white-space: pre-wrap; 
 }
 
 .message.user pre {
     font-size: 14px;
 }
-
-/* .message {
-    padding: 10px;
-    border-radius: 10px;
-    max-width: 70%;
-    word-wrap: break-word;
-} */
   
 @media screen and (max-width: 678px) {
     
@@ -186,19 +177,21 @@
     }
     
     .message.user {
-        width: 300px;  
+        width: 282px;  
         font-size: 14px;
         height: auto;
         padding: 15px;
         margin: 10px 0;
+        margin-right: 20px;
     }
 
    
     .message.gemini {
-        width: 300px;  
+        width: 285px;  
         font-size: 13px;
         padding: 15px;
         margin: 10px 0;
+        margin-right: 20px;
     }
 
     .chat-input {
@@ -224,5 +217,39 @@
     .chat-header{
         position: relative;
         left: 40px;
+    }
+    .ai-icon{
+        font-size: 25px;
+    }
+    .user-icon{
+        font-size: 15px;
+    }
+    .icons{
+        position: relative;
+        left: -2%;
+    }
+    .user-icon2 {
+        display: flex;
+        justify-content: center;
+        align-content: center;
+        align-items: center;
+        width: 35px;
+        height: 35px; 
+        border-radius: 50%;
+        color: #603CFF;
+        border: 1px solid #E2E8F0;  
+    }
+    
+    .ai-icon2 {
+        display: flex;
+        justify-content: center;
+        align-content: center;
+        align-items: center;
+        width: 35px;
+        height: 35px;
+        color: white;
+        background: linear-gradient(15.46deg, #4A25E1 26.3%, #7B5AFF 86.4%);
+        border: none;
+        border-radius: 50%;
     }
 }
