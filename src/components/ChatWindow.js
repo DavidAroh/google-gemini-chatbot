@@ -11,7 +11,7 @@ const ChatWindow = ({ geminiKey }) => {
 
   // Initialize the Google Generative AI model
   const genAI = new GoogleGenerativeAI(geminiKey); // Create instance with API Key
-  const model = genAI.getGenerativeModel({ model: "gemini-1.5-flash" });
+  const model = genAI.getGenerativeModel({ model: "gemini-2.5-flash" });
 
   // Function to handle sending a message
   const handleSendMessage = async () => {
