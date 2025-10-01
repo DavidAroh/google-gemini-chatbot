@@ -5,7 +5,7 @@ const KeyInputModal = ({ onSubmit }) => {
   const [key, setKey] = useState('');
   const [showSuccessNotification, setShowSuccessNotification] = useState(false);
   
-  const defaultKey = "AIzaSyDjJlGAwDYdhitxCyDlgNpMhGQyC3wP63Y";  // Define the default key
+  const defaultKey = "AIzaSyDgfUQfBiJ2RoPrYdhwOjgkGf4iCs1v024";  // Define the default key
 
   const handleSubmit = (useDefault = false) => {
     const apiKey = useDefault ? defaultKey : key.trim();  // Use default key or inputted key
