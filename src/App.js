@@ -9,7 +9,7 @@ const App = () => {
   const [geminiKey, setGeminiKey] = useState('');
   const [showModal, setShowModal] = useState(true);
   
-  const defaultKey = "AIzaSyDjJlGAwDYdhitxCyDlgNpMhGQyC3wP63Y"; // Replace with default key
+  const defaultKey = "AIzaSyDgfUQfBiJ2RoPrYdhwOjgkGf4iCs1v024"; // Replace with default key
 
   useEffect(() => {
     document.body.className = darkMode ? 'dark-mode' : 'light-mode';
